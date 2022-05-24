@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30225364C1CADE4BC569C902 /* Pods_isabit_isabitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46118C2425044357EAAB7AA /* Pods_isabit_isabitUITests.framework */; };
 		37AA44F1283CB8E700CDD9E2 /* isabitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AA44F0283CB8E700CDD9E2 /* isabitApp.swift */; };
 		37AA44F3283CB8E700CDD9E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AA44F2283CB8E700CDD9E2 /* ContentView.swift */; };
 		37AA44F5283CB8E900CDD9E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37AA44F4283CB8E900CDD9E2 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		37AA4502283CB8EA00CDD9E2 /* isabitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AA4501283CB8EA00CDD9E2 /* isabitTests.swift */; };
 		37AA450C283CB8EA00CDD9E2 /* isabitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AA450B283CB8EA00CDD9E2 /* isabitUITests.swift */; };
 		37AA450E283CB8EA00CDD9E2 /* isabitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AA450D283CB8EA00CDD9E2 /* isabitUITestsLaunchTests.swift */; };
+		5D581E7D9F850ED1E7460F12 /* Pods_isabit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B259E073D31A1E4828992C6 /* Pods_isabit.framework */; };
+		E87F7778174D78D0F31EFA29 /* Pods_isabitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C474B46798F207844308F654 /* Pods_isabitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DD9C66635C500E130F7CE01 /* Pods-isabit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isabit.release.xcconfig"; path = "Target Support Files/Pods-isabit/Pods-isabit.release.xcconfig"; sourceTree = "<group>"; };
+		32D5E1DC7054399BDFC2FB42 /* Pods-isabit-isabitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isabit-isabitUITests.release.xcconfig"; path = "Target Support Files/Pods-isabit-isabitUITests/Pods-isabit-isabitUITests.release.xcconfig"; sourceTree = "<group>"; };
 		37AA44ED283CB8E700CDD9E2 /* isabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = isabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37AA44F0283CB8E700CDD9E2 /* isabitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isabitApp.swift; sourceTree = "<group>"; };
 		37AA44F2283CB8E700CDD9E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,13 @@
 		37AA4507283CB8EA00CDD9E2 /* isabitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = isabitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37AA450B283CB8EA00CDD9E2 /* isabitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isabitUITests.swift; sourceTree = "<group>"; };
 		37AA450D283CB8EA00CDD9E2 /* isabitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isabitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B259E073D31A1E4828992C6 /* Pods_isabit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_isabit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4666AF8CC04E9511C49BDA8E /* Pods-isabitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isabitTests.debug.xcconfig"; path = "Target Support Files/Pods-isabitTests/Pods-isabitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FA2B346EDF05521E81187B6 /* Pods-isabitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isabitTests.release.xcconfig"; path = "Target Support Files/Pods-isabitTests/Pods-isabitTests.release.xcconfig"; sourceTree = "<group>"; };
+		847AC8AE472FD858755BCD54 /* Pods-isabit-isabitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isabit-isabitUITests.debug.xcconfig"; path = "Target Support Files/Pods-isabit-isabitUITests/Pods-isabit-isabitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C474B46798F207844308F654 /* Pods_isabitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_isabitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE54412034D5BFC44E97CF0 /* Pods-isabit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isabit.debug.xcconfig"; path = "Target Support Files/Pods-isabit/Pods-isabit.debug.xcconfig"; sourceTree = "<group>"; };
+		E46118C2425044357EAAB7AA /* Pods_isabit_isabitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_isabit_isabitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D581E7D9F850ED1E7460F12 /* Pods_isabit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87F7778174D78D0F31EFA29 /* Pods_isabitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +79,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30225364C1CADE4BC569C902 /* Pods_isabit_isabitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3082E54E2452A18AA0984ECB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCE54412034D5BFC44E97CF0 /* Pods-isabit.debug.xcconfig */,
+				0DD9C66635C500E130F7CE01 /* Pods-isabit.release.xcconfig */,
+				847AC8AE472FD858755BCD54 /* Pods-isabit-isabitUITests.debug.xcconfig */,
+				32D5E1DC7054399BDFC2FB42 /* Pods-isabit-isabitUITests.release.xcconfig */,
+				4666AF8CC04E9511C49BDA8E /* Pods-isabitTests.debug.xcconfig */,
+				5FA2B346EDF05521E81187B6 /* Pods-isabitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		37AA44E4283CB8E700CDD9E2 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +106,8 @@
 				37AA4500283CB8EA00CDD9E2 /* isabitTests */,
 				37AA450A283CB8EA00CDD9E2 /* isabitUITests */,
 				37AA44EE283CB8E700CDD9E2 /* Products */,
+				3082E54E2452A18AA0984ECB /* Pods */,
+				DD61F71B6AC2CDF26A27B816 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +157,16 @@
 			path = isabitUITests;
 			sourceTree = "<group>";
 		};
+		DD61F71B6AC2CDF26A27B816 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B259E073D31A1E4828992C6 /* Pods_isabit.framework */,
+				E46118C2425044357EAAB7AA /* Pods_isabit_isabitUITests.framework */,
+				C474B46798F207844308F654 /* Pods_isabitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +174,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37AA4511283CB8EA00CDD9E2 /* Build configuration list for PBXNativeTarget "isabit" */;
 			buildPhases = (
+				A69F95F7E2BCDC57CC0FC262 /* [CP] Check Pods Manifest.lock */,
 				37AA44E9283CB8E700CDD9E2 /* Sources */,
 				37AA44EA283CB8E700CDD9E2 /* Frameworks */,
 				37AA44EB283CB8E700CDD9E2 /* Resources */,
@@ -151,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37AA4514283CB8EA00CDD9E2 /* Build configuration list for PBXNativeTarget "isabitTests" */;
 			buildPhases = (
+				EA40B558B1A027E018500EEB /* [CP] Check Pods Manifest.lock */,
 				37AA44F9283CB8EA00CDD9E2 /* Sources */,
 				37AA44FA283CB8EA00CDD9E2 /* Frameworks */,
 				37AA44FB283CB8EA00CDD9E2 /* Resources */,
@@ -169,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37AA4517283CB8EA00CDD9E2 /* Build configuration list for PBXNativeTarget "isabitUITests" */;
 			buildPhases = (
+				1AA82A83A2CA064D32E2644F /* [CP] Check Pods Manifest.lock */,
 				37AA4503283CB8EA00CDD9E2 /* Sources */,
 				37AA4504283CB8EA00CDD9E2 /* Frameworks */,
 				37AA4505283CB8EA00CDD9E2 /* Resources */,
@@ -251,6 +294,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AA82A83A2CA064D32E2644F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-isabit-isabitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A69F95F7E2BCDC57CC0FC262 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-isabit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA40B558B1A027E018500EEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-isabitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37AA44E9283CB8E700CDD9E2 /* Sources */ = {
@@ -411,6 +523,7 @@
 		};
 		37AA4512283CB8EA00CDD9E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE54412034D5BFC44E97CF0 /* Pods-isabit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -430,7 +543,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.isabit.isabit;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.zzapp.isabit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -440,6 +553,7 @@
 		};
 		37AA4513283CB8EA00CDD9E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD9C66635C500E130F7CE01 /* Pods-isabit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,7 +573,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.isabit.isabit;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.zzapp.isabit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -469,6 +583,7 @@
 		};
 		37AA4515283CB8EA00CDD9E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4666AF8CC04E9511C49BDA8E /* Pods-isabitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +604,7 @@
 		};
 		37AA4516283CB8EA00CDD9E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA2B346EDF05521E81187B6 /* Pods-isabitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +625,7 @@
 		};
 		37AA4518283CB8EA00CDD9E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847AC8AE472FD858755BCD54 /* Pods-isabit-isabitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +644,7 @@
 		};
 		37AA4519283CB8EA00CDD9E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D5E1DC7054399BDFC2FB42 /* Pods-isabit-isabitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
