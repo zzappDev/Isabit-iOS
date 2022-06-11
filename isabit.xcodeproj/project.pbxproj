@@ -15,6 +15,7 @@
 		37AA4502283CB8EA00CDD9E2 /* isabitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AA4501283CB8EA00CDD9E2 /* isabitTests.swift */; };
 		37AA450C283CB8EA00CDD9E2 /* isabitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AA450B283CB8EA00CDD9E2 /* isabitUITests.swift */; };
 		37AA450E283CB8EA00CDD9E2 /* isabitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AA450D283CB8EA00CDD9E2 /* isabitUITestsLaunchTests.swift */; };
+		55C63F1328544D6800F3C957 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C63F1228544D6800F3C957 /* Launch Screen.storyboard */; };
 		5D581E7D9F850ED1E7460F12 /* Pods_isabit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B259E073D31A1E4828992C6 /* Pods_isabit.framework */; };
 		E87F7778174D78D0F31EFA29 /* Pods_isabitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C474B46798F207844308F654 /* Pods_isabitTests.framework */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		37AA450D283CB8EA00CDD9E2 /* isabitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isabitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3B259E073D31A1E4828992C6 /* Pods_isabit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_isabit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4666AF8CC04E9511C49BDA8E /* Pods-isabitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isabitTests.debug.xcconfig"; path = "Target Support Files/Pods-isabitTests/Pods-isabitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55C63F1228544D6800F3C957 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		5FA2B346EDF05521E81187B6 /* Pods-isabitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isabitTests.release.xcconfig"; path = "Target Support Files/Pods-isabitTests/Pods-isabitTests.release.xcconfig"; sourceTree = "<group>"; };
 		847AC8AE472FD858755BCD54 /* Pods-isabit-isabitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isabit-isabitUITests.debug.xcconfig"; path = "Target Support Files/Pods-isabit-isabitUITests/Pods-isabit-isabitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C474B46798F207844308F654 /* Pods_isabitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_isabitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +128,7 @@
 			children = (
 				37AA44F0283CB8E700CDD9E2 /* isabitApp.swift */,
 				37AA44F2283CB8E700CDD9E2 /* ContentView.swift */,
+				55C63F1228544D6800F3C957 /* Launch Screen.storyboard */,
 				37AA44F4283CB8E900CDD9E2 /* Assets.xcassets */,
 				37AA44F6283CB8E900CDD9E2 /* Preview Content */,
 			);
@@ -274,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C63F1328544D6800F3C957 /* Launch Screen.storyboard in Resources */,
 				37AA44F8283CB8E900CDD9E2 /* Preview Assets.xcassets in Resources */,
 				37AA44F5283CB8E900CDD9E2 /* Assets.xcassets in Resources */,
 			);
@@ -530,12 +534,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"isabit/Preview Content\"";
-				DEVELOPMENT_TEAM = M3KMTD49RM;
+				DEVELOPMENT_TEAM = FM56JSW44T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = isabit/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -560,12 +568,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"isabit/Preview Content\"";
-				DEVELOPMENT_TEAM = M3KMTD49RM;
+				DEVELOPMENT_TEAM = FM56JSW44T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = isabit/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
